@@ -1,0 +1,213 @@
+:root{
+    --header-color:#212121;
+    --contacts-color:#757575;
+    --accent-color:#2196F3;
+    --main-title-color:#FFFFFF;
+    --second-title-color:#212121;
+    --btn-color:#FFFFFF;
+    --second-btn-color:#188CE8;
+    --bg-btn-color:#F5F4FA;
+    --text-color:#757575;
+    --main-bg-color:#E5E5E5;
+    --second-bg-color:#2F303A;
+    --address-color:#FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--second-title-color);
+    background-color: var(--main-bg-color);
+    letter-spacing: 0.03em;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+
+.logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--accent-color);
+}
+
+.logo-text{
+    color: var(--header-color);
+}
+
+.header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-color)
+}
+
+.header-link:hover, .header-link:focus{
+color: var(--accent-color);
+}
+
+.header-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    color: var(--contacts-color);
+}
+
+.header-contacts:hover{
+    color: var(--accent-color);
+}
+
+.header-contacts:focus{
+    color: var(--accent-color);
+    }
+
+.hero{
+    background-color: var(--second-bg-color);
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-title-color);
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--btn-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.header-link:hover, .header-link:focus{
+    color: var(--second-btn-color);
+    }
+
+.about-top-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+}
+
+.about-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text-color)
+}
+
+.activity-title, .company-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--second-title-color)
+}
+
+.company-workers{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    color: var(--second-title-color);
+}
+
+.company-positions{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.footer{
+    background-color: var(--second-bg-color);
+}
+
+.logo-footer{
+    color: var(--main-title-color);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.address-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--address-color);
+}
+
+.address-contacts{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover, .address-link:focus{
+    color: var(--accent-color);
+}
+
+.address-contacts:hover, .address-contacts:focus{
+        color: var(--accent-color);
+    }
+
+.btn-filter{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--btn-color)
+    background-color: var(--bg-btn-color);
+    cursor: pointer;
+}
+
+.btn-filter:hover, .btn-filter:focus{
+    background-color: var(--accent-color);
+}
+
+.portfolio-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--second-title-color);
+}
+
+.portfolio-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--text-color);
+}
